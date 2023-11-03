@@ -1,0 +1,96 @@
+.modalBackground {
+  position: fixed;
+  background-color: rgba(188, 195, 208, 0.3);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  padding: 24px;
+
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
+  width: 500px;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 101;
+}
+
+.modalHeader {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "Proxima Nova Bold";
+  color: var(--plumbum);
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.closeButton {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.closeButton svg {
+  display: block;
+}
+
+.detailedContainer {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 40px;
+  row-gap: 14px;
+
+  font-family: "Proxima Nova Regular";
+
+  line-height: 24px;
+}
+
+.categoryName {
+  color: var(--plumbum);
+  font-size: 18px;
+}
+
+.categoryInfo {
+  color: var(--asphalt);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.additionalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.additionalName {
+  color: var(--plumbum);
+
+  font-family: "Proxima Nova Regular";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.additionalInfo {
+  color: var(--asphalt);
+  font-family: "Proxima Nova Regular";
+  font-size: 16px;
+  line-height: 18px;
+}

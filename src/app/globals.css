@@ -1,0 +1,29 @@
+:root {
+  --asphalt: #8189a3;
+  --plumbum: #262c40;
+  --blueberry: #d4defe;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url(../fonts/ProximaNova/proximanova_regular.ttf);
+  weight: 400;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url(../fonts/ProximaNova/proximanova_bold.otf);
+  weight: 700;
+}

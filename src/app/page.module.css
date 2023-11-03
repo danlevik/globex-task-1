@@ -1,0 +1,14 @@
+.container {
+  margin: 64px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  display: block;
+  font-family: "Proxima Nova Bold";
+  font-size: 42px;
+  text-align: center;
+  color: var(--plumbum);
+}

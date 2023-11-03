@@ -1,0 +1,51 @@
+.container {
+  cursor: pointer;
+
+  width: 357px;
+  height: 314px;
+  padding: 24px;
+
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.name {
+  font-family: "Proxima Nova Bold";
+  color: var(--plumbum);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  font-family: "Proxima Nova Regular";
+  color: var(--plumbum);
+  font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  gap: 14px;
+}
+
+.contact a:link,
+.contact a:visited {
+  color: var(--asphalt);
+  text-decoration: none;
+}
+
+.contact a:hover,
+.contact a:active {
+  color: var(--asphalt);
+  text-decoration: none;
+}
